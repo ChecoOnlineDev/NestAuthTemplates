@@ -9,6 +9,6 @@ export class CreateUserDto {
     email: string;
 
     @IsString()
-    @MinLength(6) //contraseña con una longitud minima de 6 caracteres
+    @MinLength(6)
     password: string;
 }
